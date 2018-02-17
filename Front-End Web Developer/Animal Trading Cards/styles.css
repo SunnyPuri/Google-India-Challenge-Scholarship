@@ -1,0 +1,43 @@
+/* add your CSS here */
+
+body{
+	display: flex;
+	justify-content: center;
+}
+
+.animal-card{
+	width: 300px;
+	border: 1px solid #ccc;
+	padding: 0px 10px 10px;
+	box-shadow: 5px 5px 5px #ddd;
+}
+
+.animal-name{
+	font-weight: 600;
+}
+
+.animal-image{
+	width: 100%;
+}
+
+.animal-details{
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	padding: 0px 10px 10px;
+}
+
+.animal-fact{
+	font-style: italic;
+}
+
+.animal-specification{
+	padding: 0;
+}
+
+.animal-specification li{
+	list-style: none;
+}
+
+.animal-specification li span{
+	font-weight: 600;
+}
